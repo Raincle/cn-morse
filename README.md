@@ -57,13 +57,15 @@ $ npm i --save cn-morse
 ## Common Usage
 ```js
 /*
- *加密
+ *加密解密
  */
-const { encode } = require('cn-morse')
+const { encode, decode } = require('cn-morse')
 
 const morseCode = encode('你好世界')
-
 console.log(morseCode) // ...-..-.. ---..- ---...- ----...
+
+const chString = encode('...-..-.. ---..- ---...- ----...')
+console.log(chString) // 你好世界
 ```
 
 
