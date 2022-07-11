@@ -7,7 +7,7 @@
 3. 因此，作者决定开源基于字频二叉树的中文摩尔斯码
 
 ## Features
-1. 加密解密常用500字中文
+1. 加密解密常用6763字中文
 2. 用更少的字符传达更多信息
 3. 用传统摩尔斯解码无效，混淆视听
 
@@ -19,13 +19,13 @@ $ npm i --save cn-morse
 ## Common Usage
 ```js
 /*
- *Calculate max loss of an array
+ *加密
  */
 const { encode } = require('cn-morse')
 
-const morseCode = encode('我爱你')
+const morseCode = encode('你好世界')
 
-console.log(morseCode) //
+console.log(morseCode) // ...-..-.. ---..- ---...- ----...
 ```
 
 

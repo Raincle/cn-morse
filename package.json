@@ -1,19 +1,38 @@
 {
   "name": "cn-morse",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Chinese Morse Code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "arrange": "ts-node ./binaryArr.ts",
+    "build": "tsc"
   },
+  "keywords": [
+    "morse",
+    "cn morse",
+    "mor",
+    "morse code",
+    "encode morse",
+    "decode morse",
+    "binary morse",
+    "中文morse",
+    "中文摩尔斯码"
+  ],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Raincle/cn-morse.git"
   },
-  "author": "Mid9Rain",
-  "license": "ISC",
+  "author": "Rain",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Raincle/cn-morse/issues"
   },
-  "homepage": "https://github.com/Raincle/cn-morse#readme"
+  "homepage": "https://github.com/Raincle/cn-morse#readme",
+  "dependencies": {
+    "@types/node": "^18.0.3"
+  }
 }
