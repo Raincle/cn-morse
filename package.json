@@ -1,0 +1,19 @@
+{
+  "name": "cn-morse",
+  "version": "0.0.1",
+  "description": "Chinese Morse Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raincle/cn-morse.git"
+  },
+  "author": "Mid9Rain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raincle/cn-morse/issues"
+  },
+  "homepage": "https://github.com/Raincle/cn-morse#readme"
+}
