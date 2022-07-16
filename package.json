@@ -1,6 +1,6 @@
 {
   "name": "cn-morse",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "Chinese Morse Code",
   "main": "index.js",
   "scripts": {
