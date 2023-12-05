@@ -1,8 +1,9 @@
 {
   "name": "cn-morse",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Chinese Morse Code",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "arrange": "ts-node ./binaryArr.ts",
